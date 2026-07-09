@@ -6,7 +6,7 @@ import Categories from "./src/components/Categories";
 import Features from "./src/components/Features";
 import Testimonials from "./src/components/Testimonials";
 import FAQ from "./src/components/FAQ";
-import CTA from "./src/components/CTA";
+import CTA from "./components/CTA";
 import BackToTop from "./src/components/BackToTop";
 import Footer from "./src/components/Footer";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
