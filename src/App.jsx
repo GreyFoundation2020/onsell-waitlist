@@ -1,4 +1,4 @@
-import Home from "/home";
+import Home from "/home.jsx";
 
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Privacy from "./pages/Privacy";
