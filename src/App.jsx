@@ -20,14 +20,14 @@ function App() {
         element={<Login/>}
         />
 
-        <Route
+       <Route
         path="/admin"
         element={
         <ProtectedRoute>
         <Dashboard/>
         </ProtectedRoute>
         }
-        />
+       />
        </Routes>
      </BrowserRouter>
     </>
