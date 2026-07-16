@@ -1,6 +1,6 @@
 import Home from "/home.jsx";
 
-import {BrowserRouter,Routes,Route} from "react-router-dom";
+import { HashRouter,Routes,Route} from "react-router-dom";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Login from "./admin/Login";
@@ -10,7 +10,7 @@ import Dashboard from "./admin/Dashboard";
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
      <Routes>
        <Route  path="/" element={< Home/>} />
         <Route path="/privacy" element={<Privacy />} />
@@ -29,7 +29,7 @@ function App() {
         }
        />
        </Routes>
-     </BrowserRouter>
+     </HashRouter>
     </>
 
     
